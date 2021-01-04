@@ -1,1 +1,5 @@
 /sandbox/.gradle/
+/sandbox/build
+/.idea
+
+.DS_Store
