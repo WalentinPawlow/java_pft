@@ -4,21 +4,16 @@ public class MyFirstProgram {
   public static void main(String[] args) {
     hello("world");
     hello("mister");
-    double length=6;
-    double width=8;
-    System.out.println("Площадь квадрата со стороной "+length+" равна "+ area(length));
-    System.out.println("Площадь прямоугольника со сторонами "+length+" и "+width+" равна "+ area(length,width));
+    Square s = new Square(5);
+    System.out.println("Площадь квадрата со стороной "+s.length+" равна "+ s.area());
+    Rectangle r= new Rectangle(6,8);
+    System.out.println("Площадь прямоугольника со сторонами "+r.length+" и "+r.width+" равна "+ r.area());
   }
 
   public static void hello(String somebody) {
     System.out.println("Hello, "+somebody+"!");
   }
 
-  public static double area (double length){
-    return length*length;
-  }
 
-  public static double area (double length, double width){
-    return length*width;
-  }
+
 }
