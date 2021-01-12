@@ -6,6 +6,10 @@ repositories {
     mavenCentral()
 }
 
+test {
+    useTestNG()
+}
+
 
 dependencies {
     // https://mvnrepository.com/artifact/org.testng/testng
