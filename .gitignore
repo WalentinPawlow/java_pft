@@ -1,5 +1,7 @@
 /sandbox/.gradle/
 /sandbox/build
 /.idea
+/videozen-web-tests/.gradle/
+/videozen-web-tests/build
 
 .DS_Store
